@@ -45,3 +45,6 @@ Player控制脚本中存储背包的数据（BagScriptableObject）,需要数据
 ## BagOnDrag.cs
 实现背包的拖拽功能<br>
 需要实现IDragHandle接口<br>
+
+## 存储功能
+目前存在bug，由于JsonUtility只能进行简单的json化，不能将复杂的嵌套进行完全json化，导致物品的数量等信息无法保存下来。
